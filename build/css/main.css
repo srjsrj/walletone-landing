@@ -533,7 +533,7 @@ h6 {
   font-size: 24px;
 }
 .b-page__section_intro .b-content p {
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 }
 .b-page__section_graph {
   background-color: #8cbe4b;
@@ -544,9 +544,23 @@ h6 {
 .b-page__section_form {
   background-color: #f7f7f8;
   color: #343434;
+  padding: 62px 0;
+}
+.b-page__section_form .b-section__subtitle {
+  margin-bottom: 70px;
+}
+.b-page__section_features-shop {
+  padding: 50px 0;
+}
+.b-page__section_features-shop .b-btn_green {
+  margin-top: 20px;
 }
 .b-page__section_features-prog {
+  padding: 82px 0;
   background: #655750 url("../images/bg_notebook.jpg") 50% 0 no-repeat;
+}
+.b-page__section_features-prog .b-section__subtitle {
+  margin-bottom: 68px;
 }
 .b-logo {
   display: block;
@@ -569,7 +583,7 @@ h6 {
   border: none;
   background: none;
   text-decoration: none;
-  padding: 7px 30px;
+  padding: 11px 40px;
   font-weight: bold;
   text-align: center;
   -webkit-border-radius: 4px;
@@ -577,6 +591,7 @@ h6 {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 16px;
   -webkit-transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease, -webkit-transform 0.2s ease;
   -moz-transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease, -moz-transform 0.2s ease;
   -o-transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease, -o-transform 0.2s ease;
@@ -612,7 +627,7 @@ h6 {
 }
 .b-header {
   position: relative;
-  padding: 60px 0 90px;
+  padding: 58px 0 72px;
 }
 .b-header__logo,
 .b-header__text {
@@ -621,7 +636,7 @@ h6 {
 }
 .b-header__action {
   position: absolute;
-  top: 60px;
+  top: 63px;
   right: 0;
 }
 .b-header__text {
@@ -635,23 +650,24 @@ h6 {
 }
 .b-content__title {
   font-size: 80px;
-  margin: 0 0 40px;
+  margin: 0 0 32px;
 }
 .b-content__subtitle {
   font-size: 44px;
+  line-height: 1.24;
   margin: 0 0 30px;
 }
 .b-graph {
   width: 1047px;
-  margin: 0 auto;
+  margin: 80px auto 0;
   position: relative;
   text-align: left;
 }
 .b-graph__text {
   font-size: 20px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 30px;
+  left: 36px;
   line-height: 1.2;
 }
 .b-graph__text_perc {
@@ -688,7 +704,8 @@ h6 {
   }
 }
 .b-graph__text_profit {
-  left: 695px;
+  left: 689px;
+  top: 41px;
 }
 .b-graph__text_profit em {
   font-style: normal;
@@ -697,6 +714,7 @@ h6 {
 .b-graph__text_val {
   top: auto;
   bottom: -35px;
+  left: 0;
   opacity: 0.6;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
   filter: alpha(opacity=60);
@@ -744,7 +762,7 @@ h6 {
 }
 .b-icon-text {
   overflow: hidden;
-  margin: 0 0 20px;
+  margin: 0 0 22px;
 }
 .b-icon-text__fig {
   width: 50px;
@@ -757,9 +775,11 @@ h6 {
 .b-icon-text_size-l {
   text-align: center;
   font-size: 24px;
+  line-height: 1.23;
+  margin-bottom: 40px;
 }
 .b-icon-text_size-l .b-icon-text__fig {
-  height: 75px;
+  height: 79px;
   width: auto;
   float: none;
   display: block;
@@ -770,9 +790,10 @@ h6 {
 .b-icon-text_size-m {
   text-align: center;
   font-size: 18px;
+  height: 168px;
 }
 .b-icon-text_size-m .b-icon-text__fig {
-  height: 75px;
+  height: 71px;
   width: auto;
   float: none;
   display: block;
@@ -783,7 +804,7 @@ h6 {
 .b-field {
   border: none;
   width: 100%;
-  padding: 10px 20px;
+  padding: 13px 20px;
   font-size: 22px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
@@ -798,16 +819,16 @@ h6 {
   margin: 0 0 15px;
 }
 .b-form__row_submit {
-  margin-top: 50px;
+  margin-top: 55px;
 }
 .b-footer {
   background-color: #323237;
-  padding: 65px 0 110px;
+  padding: 70px 0 110px;
   color: #636367;
   text-align: center;
 }
 .b-footer p {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
 }
 .b-footer a {
   color: #fff;
