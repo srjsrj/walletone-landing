@@ -1,0 +1,44 @@
+generateIcon(width, height, name)
+	width width
+	height height
+	image ("../images/b-icon/"+name+".png") width height
+
+.b-icon
+	display inline-block
+	vertical-align middle
+	&_act
+		generateIcon(57px, 57px, 'act')
+	&_globe
+		generateIcon(31px, 31px, 'globe')
+	&_graph
+		generateIcon(57px, 56px, 'graph')
+	&_gui
+		generateIcon(29px, 27px, 'gui')
+	&_lock
+		generateIcon(27px, 32px, 'lock')
+	&_mail
+		generateIcon(31px, 30px, 'mail')
+	&_perc
+		generateIcon(64px, 59px, 'perc')
+	&_perc-white
+		generateIcon(56px, 56px, 'perc_white')
+	&_pers
+		generateIcon(36px, 29px, 'pers')
+	&_pie
+		generateIcon(30px, 30px, 'pie')
+	&_pie-white
+		generateIcon(57px, 57px, 'pie_white')
+	&_setting
+		generateIcon(31px, 31px, 'setting')
+	&_setting-white
+		generateIcon(57px, 56px, 'setting_white')
+	&_sup
+		generateIcon(31px, 31px, 'sup')
+	&_tick
+		generateIcon(69px, 68px, 'tick')
+	&_tick-small
+		generateIcon(46px, 45px, 'tick_small')
+	&_wallet
+		generateIcon(31px, 31px, 'wallet')
+	&_wallet-white
+		generateIcon(56px, 57px, 'wallet_white')

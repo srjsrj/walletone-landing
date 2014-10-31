@@ -1,0 +1,342 @@
+@import 'nib'
+@import 'normalize'
+@import 'b-icon'
+
+placeholder($color = $input-color-placeholder)
+  &::-moz-placeholder // Firefox
+    color $color
+    opacity 1 // See https//github.com/twbs/bootstrap/pull/11526
+  &:-ms-input-placeholder // Internet Explorer 10+
+    color $color
+  &::-webkit-input-placeholder // Safari and Chrome
+    color $color
+
+clearfix()
+    zoom 1
+    &:after
+    &:before
+        content ""
+        display table
+    &:after
+        clear both
+
+disableselect()
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+html 
+    color #343434
+    font-size 16px
+    line-height 1.5
+    
+body,
+button,
+input,
+select,
+textarea
+    font-family 'Open Sans', sans-serif
+    font-weight 300
+
+html,
+body
+    height 100%
+    
+selectionColor = #8cbe4b
+
+::-moz-selection 
+    background selectionColor
+    text-shadow none
+
+::selection 
+    background selectionColor
+    text-shadow none
+    
+placeholderColor = #b0b0b0
+
+::-webkit-input-placeholder 
+   color placeholderColor
+
+:-moz-placeholder
+   color placeholderColor 
+
+::-moz-placeholder
+   color placeholderColor
+
+:-ms-input-placeholder 
+   color placeholderColor
+
+hr 
+    display block
+    height 1px
+    border 0
+    border-top 1px solid #ccc
+    margin 1em 0
+    padding 0
+
+audio,
+canvas,
+img,
+svg,
+video 
+    vertical-align middle
+
+fieldset 
+    border 0
+    margin 0
+    padding 0
+
+textarea 
+    resize vertical
+
+h1
+h2
+h3
+h4
+h5
+h6
+    font-weight 300
+
+.b-body
+    background #fff
+    
+.b-layout
+    margin 0 auto
+    max-width 1440px
+    min-width 1100px
+    padding 0 15px
+
+.b-page
+    &__section
+        background-size cover
+        background-position 50% 0
+        min-height 700px
+        box-sizing border-box
+        overflow hidden
+        &_intro
+        &_features-prog
+            background-size cover
+            background-attachment fixed
+            color #fff
+        
+        &_intro
+            background #808083 url(../images/bg_intro.jpg) 50% 0 no-repeat
+            font-size 24px
+            .b-content
+                p
+                    margin-bottom 50px
+                    
+        &_graph
+            background-color #8cbe4b
+            color #fff
+            font-size 20px
+            padding 70px 0 90px
+            
+        &_form
+            background-color #f7f7f8
+            color #343434
+            
+        &_features-prog
+            background #655750 url(../images/bg_notebook.jpg) 50% 0 no-repeat
+            
+
+.b-logo
+    display block
+    width 81px
+    height 69px
+    image: '../images/logo.png' @width @height
+    text-indent -9999px
+    
+.b-btn
+    display inline-block
+    vertical-align middle
+    border none
+    background none
+    text-decoration none
+    padding 7px 30px
+    font-weight bold
+    text-align center
+    border-radius 4px
+    box-sizing border-box
+    transition color .3s ease, background-color .3s ease, border .3s ease, transform .2s ease
+    &_white
+        color #fff
+        border 2px solid @color
+        &:hover
+            color #fff
+            background-color #8bbe47
+    &_green
+        color #fff
+        background-color #8bbe47
+        border 2px solid @background-color
+        &:hover
+            border 2px solid @color
+            color #fff
+    
+        
+    &:focus
+        outline none
+        
+    &:active
+        transform scale(.99)
+
+.b-header
+    position relative
+    padding 60px 0 90px
+    &__logo
+    &__text
+        display inline-block
+        vertical-align top
+    &__action
+        position absolute
+        top 60px
+        right 0
+    &__text
+        padding 2px 0 0 30px
+        
+.b-content
+    text-align center
+    p
+        margin 0
+    &__title
+        font-size 80px
+        margin 0 0 40px
+    &__subtitle
+        font-size 44px
+        margin 0 0 30px
+        
+.b-graph
+    width 1047px
+    margin 0 auto
+    position relative
+    text-align left
+    &__text
+        font-size 20px
+        position absolute
+        top 0
+        left 0
+        line-height 1.2
+        &_perc
+            padding 22px
+            padding-left 85px
+            border 1px solid #b2d386
+            border-radius 4px
+            a
+                text-decoration none
+                color #beff6a
+                &:hover
+                    color #fff
+                    text-decoration underline
+            &:before
+                content ''
+                position absolute
+                top 0
+                left 0
+                margin 22px
+                image "../images/b-icon/tick_small.png" 46px 45px
+                width 46px
+                height 45px
+            
+        &_profit
+            left 695px
+            em
+                font-style normal
+                font-size 30px
+                
+        &_val
+            top auto
+            bottom -35px
+            opacity .6
+            font-size 18px
+            &_1
+                left 245px
+            &_2
+                left 507px
+            &_3
+                left 754px
+    &__img
+        height 319px
+        background url('../images/graph.png')
+
+.b-feature-list
+    clearfix()
+    max-width 1000px
+    margin 0 auto
+    text-align left
+    &__col
+        width 50%
+        float left
+        box-sizing border-box
+        padding-right 50px
+        &_one-third
+            width 33%
+            padding 0
+            text-align center
+
+.b-icon-text
+    overflow hidden
+    margin 0 0 20px
+    &__fig
+        width 50px
+        float left
+    &__val
+        display block
+        margin-left 55px
+    
+    &_size-l
+        text-align center
+        font-size 24px
+        .b-icon-text
+            &__fig
+                height 75px
+                width auto
+                float none
+                display block
+            &__val
+                margin-left 0
+                
+    &_size-m
+        text-align center
+        font-size 18px
+        .b-icon-text
+            &__fig
+                height 75px
+                width auto
+                float none
+                display block
+            &__val
+                margin-left 0
+                 
+.b-field
+    border none
+    width 100%
+    padding 10px 20px
+    font-size 22px
+    border-radius 4px
+    text-align left
+    background #eee
+
+.b-form
+    max-width 600px
+    margin 0 auto
+    &__row
+        margin 0 0 15px
+        &_submit
+            margin-top 50px
+            
+.b-footer
+    background-color #323237
+    padding 65px 0 110px
+    color #636367
+    text-align center
+    p
+        margin 0 0 10px
+    a
+        color #fff
+        text-decoration none
+        font-size 24px
+        &:hover
+            color #8bbe47
