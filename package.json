@@ -1,0 +1,44 @@
+{
+  "name": "w1 landing",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "tiny-lr": "",
+    "gulp": "",
+    "gulp-jade": "",
+    "gulp-stylus": "",
+    "gulp-livereload": "",
+    "gulp-csso": "",
+    "gulp-concat": "",
+    "nib": "",
+    "connect": "",
+    "connect-livereload": ""
+  },
+  "devDependencies": {
+    "connect": "^2.17.1",
+    "connect-livereload": "^0.4.0",
+    "gulp": "^3.6.2",
+    "gulp-concat": "^2.2.0",
+    "gulp-csso": "^0.2.8",
+    "gulp-jade": "^0.5.0",
+    "gulp-livereload": "^1.5.0",
+    "gulp-stylus": "^1.0.1",
+    "nib": "^1.0.2",
+    "tiny-lr": "0.0.7",
+    "gulp-uglify": "^1.0.1"
+  },
+  "description": "Верстка по БЭМу, Jade, Stylus.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/srjsrj/walletone-landing.git"
+  },
+  "keywords": [
+    "lift"
+  ],
+  "author": "sergey demin",
+  "license": ""
+}
