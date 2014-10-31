@@ -203,7 +203,7 @@ table {
   height: 57px;
   background-image: url("../images/b-icon/act.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_act {
     background-image: url("..\images\b-icon\act@2x.png");
     -webkit-background-size: 57px 57px;
@@ -216,7 +216,7 @@ table {
   height: 31px;
   background-image: url("../images/b-icon/globe.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_globe {
     background-image: url("..\images\b-icon\globe@2x.png");
     -webkit-background-size: 31px 31px;
@@ -229,7 +229,7 @@ table {
   height: 56px;
   background-image: url("../images/b-icon/graph.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_graph {
     background-image: url("..\images\b-icon\graph@2x.png");
     -webkit-background-size: 57px 56px;
@@ -242,7 +242,7 @@ table {
   height: 27px;
   background-image: url("../images/b-icon/gui.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_gui {
     background-image: url("..\images\b-icon\gui@2x.png");
     -webkit-background-size: 29px 27px;
@@ -255,7 +255,7 @@ table {
   height: 32px;
   background-image: url("../images/b-icon/lock.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_lock {
     background-image: url("..\images\b-icon\lock@2x.png");
     -webkit-background-size: 27px 32px;
@@ -268,7 +268,7 @@ table {
   height: 30px;
   background-image: url("../images/b-icon/mail.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_mail {
     background-image: url("..\images\b-icon\mail@2x.png");
     -webkit-background-size: 31px 30px;
@@ -281,7 +281,7 @@ table {
   height: 59px;
   background-image: url("../images/b-icon/perc.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_perc {
     background-image: url("..\images\b-icon\perc@2x.png");
     -webkit-background-size: 64px 59px;
@@ -294,7 +294,7 @@ table {
   height: 56px;
   background-image: url("../images/b-icon/perc_white.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_perc-white {
     background-image: url("..\images\b-icon\perc_white@2x.png");
     -webkit-background-size: 56px 56px;
@@ -307,7 +307,7 @@ table {
   height: 29px;
   background-image: url("../images/b-icon/pers.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_pers {
     background-image: url("..\images\b-icon\pers@2x.png");
     -webkit-background-size: 36px 29px;
@@ -320,7 +320,7 @@ table {
   height: 30px;
   background-image: url("../images/b-icon/pie.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_pie {
     background-image: url("..\images\b-icon\pie@2x.png");
     -webkit-background-size: 30px 30px;
@@ -333,7 +333,7 @@ table {
   height: 57px;
   background-image: url("../images/b-icon/pie_white.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_pie-white {
     background-image: url("..\images\b-icon\pie_white@2x.png");
     -webkit-background-size: 57px 57px;
@@ -346,7 +346,7 @@ table {
   height: 31px;
   background-image: url("../images/b-icon/setting.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_setting {
     background-image: url("..\images\b-icon\setting@2x.png");
     -webkit-background-size: 31px 31px;
@@ -359,7 +359,7 @@ table {
   height: 56px;
   background-image: url("../images/b-icon/setting_white.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_setting-white {
     background-image: url("..\images\b-icon\setting_white@2x.png");
     -webkit-background-size: 57px 56px;
@@ -372,7 +372,7 @@ table {
   height: 31px;
   background-image: url("../images/b-icon/sup.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_sup {
     background-image: url("..\images\b-icon\sup@2x.png");
     -webkit-background-size: 31px 31px;
@@ -385,7 +385,7 @@ table {
   height: 68px;
   background-image: url("../images/b-icon/tick.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_tick {
     background-image: url("..\images\b-icon\tick@2x.png");
     -webkit-background-size: 69px 68px;
@@ -398,7 +398,7 @@ table {
   height: 45px;
   background-image: url("../images/b-icon/tick_small.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_tick-small {
     background-image: url("..\images\b-icon\tick_small@2x.png");
     -webkit-background-size: 46px 45px;
@@ -411,7 +411,7 @@ table {
   height: 31px;
   background-image: url("../images/b-icon/wallet.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_wallet {
     background-image: url("..\images\b-icon\wallet@2x.png");
     -webkit-background-size: 31px 31px;
@@ -424,7 +424,7 @@ table {
   height: 57px;
   background-image: url("../images/b-icon/wallet_white.png");
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-icon_wallet-white {
     background-image: url("..\images\b-icon\wallet_white@2x.png");
     -webkit-background-size: 56px 57px;
@@ -502,6 +502,7 @@ h6 {
 }
 .b-body {
   background: #fff;
+  min-width: 1130px;
 }
 .b-layout {
   margin: 0 auto;
@@ -569,7 +570,7 @@ h6 {
   background-image: url("../images/logo.png");
   text-indent: -9999px;
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-logo {
     background-image: url("..\images\logo@2x.png");
     -webkit-background-size: 81px 69px;
@@ -695,7 +696,7 @@ h6 {
   width: 46px;
   height: 45px;
 }
-@media all and (-webkit-min-device-pixel-ratio:1.5),(min--moz-device-pixel-ratio:1.5),(-o-min-device-pixel-ratio:1.5/1),(min-device-pixel-ratio:1.5),(min-resolution:138dpi),(min-resolution:1.5dppx) {
+@media all and (-webkit-min-device-pixel-ratio: 1.5), (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 1.5/1), (min-device-pixel-ratio: 1.5), (min-resolution: 138dpi), (min-resolution: 1.5dppx) {
   .b-graph__text_perc:before {
     background-image: url("..\images\b-icon\tick_small@2x.png");
     -webkit-background-size: 46px 45px;

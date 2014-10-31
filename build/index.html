@@ -85,18 +85,20 @@
           <div class="b-content">
             <h5 class="b-content__subtitle">Остались вопросы?</h5>
             <div class="b-form">
-              <div class="b-form__row">
-                <input type="text" placeholder="Имя" class="b-field">
-              </div>
-              <div class="b-form__row">
-                <input type="text" placeholder="E-mail" class="b-field">
-              </div>
-              <div class="b-form__row">
-                <textarea cols="30" rows="7" placeholder="Сообщение" class="b-field b-field_textarea"></textarea>
-              </div>
-              <div class="b-form__row b-form__row_submit">
-                <input type="submit" value="ОТПРАВИТЬ СООБЩЕНИЕ" class="b-btn b-btn_green">
-              </div>
+              <form>
+                <div class="b-form__row">
+                  <input type="text" placeholder="Имя" required class="b-field">
+                </div>
+                <div class="b-form__row">
+                  <input type="email" placeholder="E-mail" required class="b-field">
+                </div>
+                <div class="b-form__row">
+                  <textarea cols="30" rows="7" placeholder="Сообщение" required class="b-field b-field_textarea"></textarea>
+                </div>
+                <div class="b-form__row b-form__row_submit">
+                  <input type="submit" value="ОТПРАВИТЬ СООБЩЕНИЕ" class="b-btn b-btn_green">
+                </div>
+              </form>
             </div>
           </div>
         </div>

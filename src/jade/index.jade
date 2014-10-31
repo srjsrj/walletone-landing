@@ -145,14 +145,15 @@ html.no-js
                     .b-content
                         h5.b-content__subtitle Остались вопросы?
                         .b-form
-                            .b-form__row
-                                input.b-field(type="text", placeholder="Имя")
-                            .b-form__row
-                                input.b-field(type="text", placeholder="E-mail")
-                            .b-form__row
-                                textarea.b-field.b-field_textarea(cols="30", rows="7", placeholder="Сообщение")
-                            .b-form__row.b-form__row_submit
-                                input.b-btn.b-btn_green(type="submit", value="ОТПРАВИТЬ СООБЩЕНИЕ")
+                            form
+                                .b-form__row
+                                    input.b-field(type="text", placeholder="Имя", required)
+                                .b-form__row
+                                    input.b-field(type="email", placeholder="E-mail", required)
+                                .b-form__row
+                                    textarea.b-field.b-field_textarea(cols="30", rows="7", placeholder="Сообщение", required)
+                                .b-form__row.b-form__row_submit
+                                    input.b-btn.b-btn_green(type="submit", value="ОТПРАВИТЬ СООБЩЕНИЕ")
 
         footer.b-footer
             p © 2007 — 2014, Wallet One
