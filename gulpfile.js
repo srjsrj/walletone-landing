@@ -12,7 +12,10 @@ var lr = require('tiny-lr'),
 
 gulp.task('stylus', function () {
     gulp.src('./src/styl/main.styl')
-        .pipe(stylus({use: [nib()]}))
+        .pipe(stylus({
+            use: nib(),
+            compress: true
+        }))
         .on('error', console.log)
         .pipe(gulp.dest('./build/css/'))
         .pipe(livereload(server));

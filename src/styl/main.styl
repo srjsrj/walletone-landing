@@ -158,9 +158,7 @@ h6
 
 .b-logo
     display block
-    width 81px
-    height 69px
-    image '../images/logo.png' @width @height
+    generateIcon(81px, 69px, 'logo')
     text-indent -9999px
     
 .b-btn
@@ -245,15 +243,11 @@ h6
                 &:hover
                     color #fff
                     text-decoration underline
-            &:before
-                content ''
-                position absolute
+            .b-icon_tick-small
                 top 0
                 left 0
                 margin 22px
-                image "../images/b-icon/tick_small.png" 46px 45px
-                width 46px
-                height 45px
+                position absolute
             
         &_profit
             left 689px
